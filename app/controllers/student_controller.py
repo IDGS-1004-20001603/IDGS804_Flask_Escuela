@@ -8,7 +8,7 @@ def setStudent(id, create_form):
     create_form.name.data = student.name
     create_form.last_name.data = student.last_name
     create_form.age.data = student.age
-    create_form.birthday.data = student.birthday
+    create_form.birthday.data = student.birthday 
     create_form.email.data = student.email
 
     return create_form
